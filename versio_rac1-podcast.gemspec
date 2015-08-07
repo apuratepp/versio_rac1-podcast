@@ -1,7 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'versio_rac1/podcast/version'
+require "versio_rac1/podcast/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "versio_rac1-podcast"
@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Josep"]
   spec.email         = ["apuratepp@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Versió RAC1 Podcast manager"
+  spec.description   = "Versió RAC1 Podcast manager."
+  spec.homepage      = "https://github.com/apuratepp/versio_rac1-podcast"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
@@ -29,5 +29,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "reek"
+  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rubocop-rspec"
   spec.add_development_dependency "rspec"
 end

@@ -1,0 +1,3 @@
+inherit_from:
+  - .hound_defaults.yml
+  - .rubocop.yml

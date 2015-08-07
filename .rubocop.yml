@@ -1,0 +1,5 @@
+require: rubocop-rspec
+
+Metrics/LineLength:
+  Exclude:
+    - "*.gemspec"
