@@ -4,7 +4,7 @@ require "rubocop/rake_task"
 
 RSpec::Core::RakeTask.new(:spec)
 RuboCop::RakeTask.new(:rubocop) do |task|
-  task.options = ["--display-cop-names", "--rails", "-c.hound.yml"]
+  task.options = ["--display-cop-names", "-c.hound.yml"]
 end
 
 task default: [:quality, :spec]

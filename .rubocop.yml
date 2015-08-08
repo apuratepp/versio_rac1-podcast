@@ -3,3 +3,7 @@ require: rubocop-rspec
 Metrics/LineLength:
   Exclude:
     - "*.gemspec"
+
+Style/MultilineOperationIndentation:
+  Exclude:
+    - "lib/versio_rac1/podcast/episode.rb"
