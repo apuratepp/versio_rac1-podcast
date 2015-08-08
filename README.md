@@ -1,5 +1,7 @@
 # VersioRac1::Podcast
 
+[![Build Status](https://travis-ci.org/apuratepp/versio_rac1-podcast.svg)](https://travis-ci.org/apuratepp/versio_rac1-podcast)
+
 ## Installation
 
 Add this line to your application's Gemfile:
