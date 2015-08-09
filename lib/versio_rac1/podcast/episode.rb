@@ -5,6 +5,8 @@ module VersioRac1
     class Episode
       include Virtus.model
 
+      ONE_DAY = 24 * 3600
+
       attribute :title
       attribute :broadcasted_at
       attribute :link
@@ -16,7 +18,7 @@ module VersioRac1
       def self.find(date)
         all.select do |episode|
           episode.broadcasted_at > date &&
-          episode.broadcasted_at < date + (24*3600)
+          episode.broadcasted_at < date + ONE_DAY
         end
       end
 

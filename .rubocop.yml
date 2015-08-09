@@ -1,5 +1,9 @@
 require: rubocop-rspec
 
+Lint/UselessAssignment:
+  Exclude:
+    - "spec/spec_helper.rb"
+
 Metrics/LineLength:
   Exclude:
     - "*.gemspec"

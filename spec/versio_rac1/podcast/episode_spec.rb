@@ -16,10 +16,16 @@ describe VersioRac1::Podcast::Episode do
   end
 
   describe ".find" do
-    let(:date) { Time.local(2015,7,1) }
-    let(:episode1) { double("episode", broadcasted_at: Time.local(2015,6,30,18)) }
-    let(:episode2) { double("episode", broadcasted_at: Time.local(2015,7,1,18)) }
-    let(:episode3) { double("episode", broadcasted_at: Time.local(2015,7,2,18)) }
+    let(:date) { Time.local(2015, 7, 1) }
+    let(:episode1) do
+      double("episode", broadcasted_at: Time.local(2015, 6, 30, 18))
+    end
+    let(:episode2) do
+      double("episode", broadcasted_at: Time.local(2015, 7, 1, 18))
+    end
+    let(:episode3) do
+      double("episode", broadcasted_at: Time.local(2015, 7, 2, 18))
+    end
     let(:all_espisodes) { [episode1, episode2, episode3] }
 
     before do
