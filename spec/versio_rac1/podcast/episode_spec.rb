@@ -1,9 +1,6 @@
 require "spec_helper"
 
 describe VersioRac1::Podcast::Episode do
-  let(:description) { "Emis.: 07-08-15 a les 18h" }
-  let(:parsed)      { Time.utc(2015, 8, 7, 16) }
-
   describe ".all" do
     let(:list) { double("list") }
 
@@ -37,7 +34,20 @@ describe VersioRac1::Podcast::Episode do
   end
 
   describe ".parse_description" do
-    subject { described_class.parse_description(description) }
-    it      { is_expected.to eq(parsed) }
+    context "in DST" do
+      let(:description) { "Emis.: 07-01-15 a les 18h" }
+      let(:parsed)      { DateTime.new(2015, 1, 7, 17) }
+
+      subject { described_class.parse_description(description) }
+      it      { is_expected.to eq(parsed) }
+    end
+
+    context "not in DST" do
+      let(:description) { "Emis.: 07-07-15 a les 18h" }
+      let(:parsed)      { DateTime.new(2015, 7, 7, 16) }
+
+      subject { described_class.parse_description(description) }
+      it      { is_expected.to eq(parsed) }
+    end
   end
 end

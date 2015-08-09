@@ -1,3 +1,5 @@
+require "active_support/core_ext/date_time/calculations"
+require "active_support/core_ext/time/zones"
 require "virtus"
 
 module VersioRac1
@@ -6,6 +8,8 @@ module VersioRac1
       include Virtus.model
 
       ONE_DAY = 24 * 3600
+      DESCRIPTION_DATE_FORMAT = "Emis.: %d-%m-%y a les %Hh"
+      DESCRIPTION_DATE_TIME_ZONE = "Europe/Berlin"
 
       attribute :title
       attribute :broadcasted_at
@@ -31,23 +35,10 @@ module VersioRac1
       end
 
       def self.parse_description(description)
-        date = description_components(description)
-        time = Time.local("20#{date[:year]}",
-                          date[:month],
-                          date[:day],
-                          date[:hour],
-                          0,
-                          0,
-                          "CET")
-        time.utc
-      end
-
-      def self.description_components(description)
-        keys   = [:day, :month, :year, :hour]
-        values = description.gsub!("Emis.: ", "").
-                             gsub!(" a les ", "-").
-                             split("-")
-        Hash[keys.zip(values)]
+        date_time = DateTime.strptime(description, DESCRIPTION_DATE_FORMAT)
+        offset    = date_time.to_time.in_time_zone(DESCRIPTION_DATE_TIME_ZONE).
+                              utc_offset
+        date_time.change(offset: offset / 3600.0 / 24)
       end
     end
   end
