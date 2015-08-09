@@ -1,0 +1,1059 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.racalacarta.com/wp-feeder.php?limit=100&param=versio_rac1&prog=VERSIO%20RAC1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 09 Aug 2015 13:33:32 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.3.3
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/xml
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+        <channel>
+        <title>RAC1 Podcast: VERSIO RAC1</title>
+        <link>http://www.rac1.org</link>
+        <description>Podcasts de RAC1</description>
+        <lastBuildDate>Sun, 09 Aug 2015 15:33:32 +0200</lastBuildDate>
+        <language>ca-ca</language>
+        <copyright>RAC1</copyright>
+        <generator>eVip DirCaster</generator>
+        <managingEditor>rac1@rac1.net (webmaster rac1)</managingEditor>
+        <itunes:image href="http://www.racalacarta.com/images/logorac1.jpg"/>
+        <itunes:category text='Podcasting' /><itunes:owner>
+        <itunes:name>RAC1</itunes:name>
+        <itunes:email>rac1@rac1.net</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>no</itunes:explicit>
+        <category>Podcasts</category>
+        <atom:link href="http://www.racalacarta.com/wp-feeder.php?limit=100&amp;param=versio_rac1&amp;prog=VERSIO+RAC1" rel="self" type="application/rss+xml" />
+        <ttl>60</ttl>
+
+        <item>
+        <title>VERSIO RAC1 (07-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0807%2018h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 07-08-15 a les 18h</description>
+        <pubDate>Fri, 07 Aug 2015 15:17:39 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0807%2018h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0807%2018h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (07-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0807%2017h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 07-08-15 a les 17h</description>
+        <pubDate>Fri, 07 Aug 2015 14:17:36 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0807%2017h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0807%2017h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21606818" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (07-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0807%2016h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 07-08-15 a les 16h</description>
+        <pubDate>Fri, 07 Aug 2015 13:17:36 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0807%2016h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0807%2016h%20(Divendres%2007-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (06-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0806%2018h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 06-08-15 a les 18h</description>
+        <pubDate>Thu, 06 Aug 2015 15:17:38 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0806%2018h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0806%2018h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (06-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0806%2017h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 06-08-15 a les 17h</description>
+        <pubDate>Thu, 06 Aug 2015 14:17:38 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0806%2017h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0806%2017h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (06-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0806%2016h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 06-08-15 a les 16h</description>
+        <pubDate>Thu, 06 Aug 2015 13:17:41 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0806%2016h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0806%2016h%20(Dijous%2006-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (05-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0805%2018h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 05-08-15 a les 18h</description>
+        <pubDate>Wed, 05 Aug 2015 15:17:36 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0805%2018h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0805%2018h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (05-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0805%2017h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 05-08-15 a les 17h</description>
+        <pubDate>Wed, 05 Aug 2015 14:17:38 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0805%2017h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0805%2017h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (05-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0805%2016h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 05-08-15 a les 16h</description>
+        <pubDate>Wed, 05 Aug 2015 13:17:42 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0805%2016h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0805%2016h%20(Dimecres%2005-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (04-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0804%2018h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 04-08-15 a les 18h</description>
+        <pubDate>Tue, 04 Aug 2015 15:17:34 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0804%2018h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0804%2018h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (04-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0804%2017h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 04-08-15 a les 17h</description>
+        <pubDate>Tue, 04 Aug 2015 14:20:37 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0804%2017h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0804%2017h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (04-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0804%2016h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 04-08-15 a les 16h</description>
+        <pubDate>Tue, 04 Aug 2015 13:17:29 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0804%2016h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0804%2016h%20(Dimarts%2004-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (03-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0803%2018h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 03-08-15 a les 18h</description>
+        <pubDate>Mon, 03 Aug 2015 15:20:43 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0803%2018h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0803%2018h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21610109" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (03-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0803%2017h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 03-08-15 a les 17h</description>
+        <pubDate>Mon, 03 Aug 2015 14:17:42 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0803%2017h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0803%2017h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (03-08-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0803%2016h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 03-08-15 a les 16h</description>
+        <pubDate>Mon, 03 Aug 2015 13:17:31 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0803%2016h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0803%2016h%20(Dilluns%2003-08-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (31-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0731%2018h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 31-07-15 a les 18h</description>
+        <pubDate>Fri, 31 Jul 2015 15:17:21 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0731%2018h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0731%2018h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (31-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0731%2017h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 31-07-15 a les 17h</description>
+        <pubDate>Fri, 31 Jul 2015 14:17:27 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0731%2017h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0731%2017h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (31-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0731%2016h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 31-07-15 a les 16h</description>
+        <pubDate>Fri, 31 Jul 2015 13:17:24 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0731%2016h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0731%2016h%20(Divendres%2031-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (30-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0730%2018h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 30-07-15 a les 18h</description>
+        <pubDate>Thu, 30 Jul 2015 15:17:18 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0730%2018h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0730%2018h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (30-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0730%2017h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 30-07-15 a les 17h</description>
+        <pubDate>Thu, 30 Jul 2015 14:20:36 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0730%2017h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0730%2017h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (30-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0730%2016h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 30-07-15 a les 16h</description>
+        <pubDate>Thu, 30 Jul 2015 13:19:04 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0730%2016h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0730%2016h%20(Dijous%2030-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21606818" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (29-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0729%2018h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 29-07-15 a les 18h</description>
+        <pubDate>Wed, 29 Jul 2015 15:20:37 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0729%2018h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0729%2018h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (29-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0729%2017h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 29-07-15 a les 17h</description>
+        <pubDate>Wed, 29 Jul 2015 14:17:29 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0729%2017h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0729%2017h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3" length="20033045" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (29-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0729%2016h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 29-07-15 a les 16h</description>
+        <pubDate>Wed, 29 Jul 2015 13:17:25 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0729%2016h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0729%2016h%20(Dimecres%2029-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (28-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0728%2018h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 28-07-15 a les 18h</description>
+        <pubDate>Tue, 28 Jul 2015 15:17:15 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0728%2018h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0728%2018h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (28-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0728%2017h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 28-07-15 a les 17h</description>
+        <pubDate>Tue, 28 Jul 2015 14:17:29 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0728%2017h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0728%2017h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (28-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0728%2016h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 28-07-15 a les 16h</description>
+        <pubDate>Tue, 28 Jul 2015 13:20:35 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0728%2016h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0728%2016h%20(Dimarts%2028-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (27-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0727%2018h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 27-07-15 a les 18h</description>
+        <pubDate>Mon, 27 Jul 2015 15:17:22 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0727%2018h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0727%2018h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (27-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0727%2017h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 27-07-15 a les 17h</description>
+        <pubDate>Mon, 27 Jul 2015 14:17:17 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0727%2017h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0727%2017h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (27-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0727%2016h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 27-07-15 a les 16h</description>
+        <pubDate>Mon, 27 Jul 2015 13:17:17 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0727%2016h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0727%2016h%20(Dilluns%2027-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (24-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0724%2018h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 24-07-15 a les 18h</description>
+        <pubDate>Fri, 24 Jul 2015 15:17:08 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0724%2018h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0724%2018h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (24-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0724%2017h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 24-07-15 a les 17h</description>
+        <pubDate>Fri, 24 Jul 2015 14:17:16 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0724%2017h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0724%2017h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21606818" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (24-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0724%2016h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 24-07-15 a les 16h</description>
+        <pubDate>Fri, 24 Jul 2015 13:17:07 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0724%2016h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0724%2016h%20(Divendres%2024-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (23-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0723%2018h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 23-07-15 a les 18h</description>
+        <pubDate>Thu, 23 Jul 2015 15:17:17 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0723%2018h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0723%2018h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (23-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0723%2017h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 23-07-15 a les 17h</description>
+        <pubDate>Thu, 23 Jul 2015 14:20:33 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0723%2017h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0723%2017h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (23-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0723%2016h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 23-07-15 a les 16h</description>
+        <pubDate>Thu, 23 Jul 2015 13:17:33 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0723%2016h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0723%2016h%20(Dijous%2023-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (22-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0722%2018h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 22-07-15 a les 18h</description>
+        <pubDate>Wed, 22 Jul 2015 15:17:00 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0722%2018h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0722%2018h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21606818" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (22-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0722%2017h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 22-07-15 a les 17h</description>
+        <pubDate>Wed, 22 Jul 2015 14:17:05 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0722%2017h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0722%2017h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (22-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0722%2016h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 22-07-15 a les 16h</description>
+        <pubDate>Wed, 22 Jul 2015 13:17:00 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0722%2016h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0722%2016h%20(Dimecres%2022-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (21-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0721%2018h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 21-07-15 a les 18h</description>
+        <pubDate>Tue, 21 Jul 2015 15:16:59 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0721%2018h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0721%2018h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21583934" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (21-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0721%2017h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 21-07-15 a les 17h</description>
+        <pubDate>Tue, 21 Jul 2015 14:17:04 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0721%2017h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0721%2017h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21616692" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (21-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0721%2016h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 21-07-15 a les 16h</description>
+        <pubDate>Tue, 21 Jul 2015 13:17:00 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0721%2016h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0721%2016h%20(Dimarts%2021-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (20-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0720%2018h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 20-07-15 a les 18h</description>
+        <pubDate>Mon, 20 Jul 2015 15:20:35 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0720%2018h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0720%2018h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21590517" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (20-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0720%2017h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 20-07-15 a les 17h</description>
+        <pubDate>Mon, 20 Jul 2015 14:17:03 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0720%2017h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0720%2017h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21613401" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (20-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0720%2016h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 20-07-15 a les 16h</description>
+        <pubDate>Mon, 20 Jul 2015 13:17:10 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0720%2016h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0720%2016h%20(Dilluns%2020-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (17-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0717%2018h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 17-07-15 a les 18h</description>
+        <pubDate>Fri, 17 Jul 2015 15:16:47 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0717%2018h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0717%2018h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (17-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0717%2017h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 17-07-15 a les 17h</description>
+        <pubDate>Fri, 17 Jul 2015 14:17:00 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0717%2017h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0717%2017h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (17-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0717%2016h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 17-07-15 a les 16h</description>
+        <pubDate>Fri, 17 Jul 2015 13:16:46 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0717%2016h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0717%2016h%20(Divendres%2017-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (16-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0716%2018h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 16-07-15 a les 18h</description>
+        <pubDate>Thu, 16 Jul 2015 15:16:45 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0716%2018h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0716%2018h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21587226" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (16-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0716%2017h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 16-07-15 a les 17h</description>
+        <pubDate>Thu, 16 Jul 2015 14:20:42 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0716%2017h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0716%2017h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21610109" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (16-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0716%2016h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 16-07-15 a les 16h</description>
+        <pubDate>Thu, 16 Jul 2015 13:16:54 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0716%2016h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0716%2016h%20(Dijous%2016-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (15-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0715%2018h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 15-07-15 a les 18h</description>
+        <pubDate>Wed, 15 Jul 2015 15:16:50 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0715%2018h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0715%2018h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21583934" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (15-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0715%2017h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 15-07-15 a les 17h</description>
+        <pubDate>Wed, 15 Jul 2015 14:17:02 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0715%2017h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0715%2017h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21613401" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (15-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0715%2016h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 15-07-15 a les 16h</description>
+        <pubDate>Wed, 15 Jul 2015 13:21:45 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0715%2016h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0715%2016h%20(Dimecres%2015-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (14-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0714%2018h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 14-07-15 a les 18h</description>
+        <pubDate>Tue, 14 Jul 2015 15:16:41 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0714%2018h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0714%2018h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (14-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0714%2017h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 14-07-15 a les 17h</description>
+        <pubDate>Tue, 14 Jul 2015 14:16:51 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0714%2017h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0714%2017h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (14-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0714%2016h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 14-07-15 a les 16h</description>
+        <pubDate>Tue, 14 Jul 2015 13:17:47 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0714%2016h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0714%2016h%20(Dimarts%2014-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (13-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0713%2018h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 13-07-15 a les 18h</description>
+        <pubDate>Mon, 13 Jul 2015 15:16:39 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0713%2018h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0713%2018h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (13-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0713%2017h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 13-07-15 a les 17h</description>
+        <pubDate>Mon, 13 Jul 2015 14:16:46 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0713%2017h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0713%2017h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (13-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0713%2016h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 13-07-15 a les 16h</description>
+        <pubDate>Mon, 13 Jul 2015 13:16:44 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0713%2016h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0713%2016h%20(Dilluns%2013-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (10-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0710%2018h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 10-07-15 a les 18h</description>
+        <pubDate>Fri, 10 Jul 2015 15:17:01 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0710%2018h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0710%2018h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (10-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0710%2017h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 10-07-15 a les 17h</description>
+        <pubDate>Fri, 10 Jul 2015 14:17:04 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0710%2017h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0710%2017h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (10-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0710%2016h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 10-07-15 a les 16h</description>
+        <pubDate>Fri, 10 Jul 2015 13:18:43 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0710%2016h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0710%2016h%20(Divendres%2010-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (09-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0709%2018h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 09-07-15 a les 18h</description>
+        <pubDate>Thu, 09 Jul 2015 15:18:08 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0709%2018h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0709%2018h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (09-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0709%2017h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 09-07-15 a les 17h</description>
+        <pubDate>Thu, 09 Jul 2015 14:19:28 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0709%2017h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0709%2017h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (09-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0709%2016h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 09-07-15 a les 16h</description>
+        <pubDate>Thu, 09 Jul 2015 13:28:53 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0709%2016h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0709%2016h%20(Dijous%2009-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (08-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0708%2018h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 08-07-15 a les 18h</description>
+        <pubDate>Wed, 08 Jul 2015 15:17:15 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0708%2018h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0708%2018h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (08-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0708%2017h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 08-07-15 a les 17h</description>
+        <pubDate>Wed, 08 Jul 2015 14:16:49 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0708%2017h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0708%2017h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (08-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0708%2016h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 08-07-15 a les 16h</description>
+        <pubDate>Wed, 08 Jul 2015 13:18:12 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0708%2016h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0708%2016h%20(Dimecres%2008-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (07-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0707%2018h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 07-07-15 a les 18h</description>
+        <pubDate>Tue, 07 Jul 2015 15:18:25 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0707%2018h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0707%2018h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (07-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0707%2017h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 07-07-15 a les 17h</description>
+        <pubDate>Tue, 07 Jul 2015 14:17:45 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0707%2017h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0707%2017h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (07-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0707%2016h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 07-07-15 a les 16h</description>
+        <pubDate>Tue, 07 Jul 2015 13:17:40 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0707%2016h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0707%2016h%20(Dimarts%2007-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (06-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0706%2018h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 06-07-15 a les 18h</description>
+        <pubDate>Mon, 06 Jul 2015 15:16:26 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0706%2018h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0706%2018h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (06-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0706%2017h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 06-07-15 a les 17h</description>
+        <pubDate>Mon, 06 Jul 2015 14:16:22 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0706%2017h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0706%2017h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (06-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0706%2016h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 06-07-15 a les 16h</description>
+        <pubDate>Mon, 06 Jul 2015 13:16:25 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0706%2016h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0706%2016h%20(Dilluns%2006-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (03-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0703%2018h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 03-07-15 a les 18h</description>
+        <pubDate>Fri, 03 Jul 2015 15:16:14 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0703%2018h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0703%2018h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (03-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0703%2017h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 03-07-15 a les 17h</description>
+        <pubDate>Fri, 03 Jul 2015 14:16:17 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0703%2017h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0703%2017h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (03-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0703%2016h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 03-07-15 a les 16h</description>
+        <pubDate>Fri, 03 Jul 2015 13:16:19 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0703%2016h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0703%2016h%20(Divendres%2003-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (02-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0702%2018h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 02-07-15 a les 18h</description>
+        <pubDate>Thu, 02 Jul 2015 15:16:18 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0702%2018h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0702%2018h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (02-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0702%2017h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 02-07-15 a les 17h</description>
+        <pubDate>Thu, 02 Jul 2015 14:16:24 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0702%2017h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0702%2017h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (02-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0702%2016h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 02-07-15 a les 16h</description>
+        <pubDate>Thu, 02 Jul 2015 13:16:21 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0702%2016h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0702%2016h%20(Dijous%2002-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (01-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0701%2018h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 01-07-15 a les 18h</description>
+        <pubDate>Wed, 01 Jul 2015 15:16:21 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0701%2018h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0701%2018h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (01-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0701%2017h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 01-07-15 a les 17h</description>
+        <pubDate>Wed, 01 Jul 2015 14:16:17 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0701%2017h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0701%2017h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21610109" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (01-07-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0701%2016h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 01-07-15 a les 16h</description>
+        <pubDate>Wed, 01 Jul 2015 13:16:27 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0701%2016h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0701%2016h%20(Dimecres%2001-07-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (30-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0630%2018h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 30-06-15 a les 18h</description>
+        <pubDate>Tue, 30 Jun 2015 15:16:16 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0630%2018h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0630%2018h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (30-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0630%2017h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 30-06-15 a les 17h</description>
+        <pubDate>Tue, 30 Jun 2015 14:16:24 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0630%2017h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0630%2017h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (30-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0630%2016h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 30-06-15 a les 16h</description>
+        <pubDate>Tue, 30 Jun 2015 13:16:15 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0630%2016h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0630%2016h%20(Dimarts%2030-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (29-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0629%2018h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 29-06-15 a les 18h</description>
+        <pubDate>Mon, 29 Jun 2015 15:16:12 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0629%2018h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0629%2018h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (29-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0629%2017h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 29-06-15 a les 17h</description>
+        <pubDate>Mon, 29 Jun 2015 14:16:10 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0629%2017h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0629%2017h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21606818" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (29-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0629%2016h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 29-06-15 a les 16h</description>
+        <pubDate>Mon, 29 Jun 2015 13:16:15 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0629%2016h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0629%2016h%20(Dilluns%2029-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (26-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0626%2018h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 26-06-15 a les 18h</description>
+        <pubDate>Fri, 26 Jun 2015 15:16:10 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0626%2018h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0626%2018h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21593809" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (26-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0626%2017h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 26-06-15 a les 17h</description>
+        <pubDate>Fri, 26 Jun 2015 14:16:03 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0626%2017h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0626%2017h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21610109" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (26-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0626%2016h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 26-06-15 a les 16h</description>
+        <pubDate>Fri, 26 Jun 2015 13:16:04 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0626%2016h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0626%2016h%20(Divendres%2026-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21600392" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (25-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0625%2018h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 25-06-15 a les 18h</description>
+        <pubDate>Thu, 25 Jun 2015 15:16:03 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0625%2018h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0625%2018h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (25-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0625%2017h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 25-06-15 a les 17h</description>
+        <pubDate>Thu, 25 Jun 2015 14:16:05 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0625%2017h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0625%2017h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (25-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0625%2016h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 25-06-15 a les 16h</description>
+        <pubDate>Thu, 25 Jun 2015 13:16:11 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0625%2016h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0625%2016h%20(Dijous%2025-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21597100" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (24-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0624%2018h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 24-06-15 a les 18h</description>
+        <pubDate>Wed, 24 Jun 2015 14:40:48 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0624%2018h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0624%2018h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3" length="8979957" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (24-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0624%2017h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 24-06-15 a les 17h</description>
+        <pubDate>Wed, 24 Jun 2015 14:16:07 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0624%2017h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0624%2017h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (24-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0624%2016h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 24-06-15 a les 16h</description>
+        <pubDate>Wed, 24 Jun 2015 13:16:06 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0624%2016h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0624%2016h%20(Dimecres%2024-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        <item>
+        <title>VERSIO RAC1 (23-06-15)</title>
+        <link>http://www.racalacarta.com/download.php?file=0623%2018h%20(Dimarts%2023-06-15)%20%20%20VERSIO%20RAC1.mp3</link>
+        <description>Emis.: 23-06-15 a les 18h</description>
+        <pubDate>Tue, 23 Jun 2015 15:15:58 +0000</pubDate>
+        <guid>http://www.racalacarta.com/download.php?file=0623%2018h%20(Dimarts%2023-06-15)%20%20%20VERSIO%20RAC1.mp3</guid>
+        <enclosure url="http://www.racalacarta.com/download.php-file=0623%2018h%20(Dimarts%2023-06-15)%20%20%20VERSIO%20RAC1.mp3" length="21603526" type="audio/mpeg" />
+        <category>VERSIO RAC1</category>
+        </item>
+
+        </channel>
+        </rss>
+    http_version: 
+  recorded_at: Sun, 09 Aug 2015 13:21:48 GMT
+recorded_with: VCR 2.9.3
